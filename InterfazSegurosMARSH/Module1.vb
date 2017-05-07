@@ -22,25 +22,7 @@ Module Module1
         Dim TablaSeguros As New SegurosMarshTableAdapters.SegurosMARSH_SeguroTableAdapter
         msgDebug += PrintLogCorreo("MAIN", "Antes de Insertar Inoperantes")
 
-        'Query a ejecutar es:
-        'INSERT INTO Seguro
-        '(Cod_contrat, Distrito, TipoContr, Version, Id_verificacion, Aprobado, Motivo)
-        'Select Case Cod_Contrat, Distrito, TipoContr, MIN(Version) As Expr1, ID_Verificacion, 'NO' AS Expr2, 'Fila Reemplazada por otra version' AS Expr3
-        'FROM(SELECT        Cod_contrat, Distrito, TipoContr, Version, 'IN' + Cod_contrat AS ID_Verificacion
-        'From Oc_Contrato As a
-        'Where (Cod_contrat Not IN
-        '(SELECT        Cod_contrat
-        'From Seguro As b
-        'Where (Distrito = a.Distrito) And (a.Version = Version)))) As G
-        'GROUP BY Cod_contrat, Distrito, TipoContr, ID_Verificacion
-        'HAVING(COUNT(*) >= 2)
-
-        '2016-07-29 ******* esta funcion no sería necesario con la nueva modificacion 
-        'debido a que ya no van a tener más de 1 version pendiente de seguro, amenos claro que en el tiempo 
-        ' se tenga algún cambio en el contrato u OC
-        ' en este caso es necesario ya que si por abc motivo no se pudo subir seguros, al días seiguiente si 
-        'se realizaron cambios, se generará una nueva version de contrato pero que no tiene seguro, a lo cual es
-        'necesario el inoperante.
+       
         TablaSeguros.InsertarInoperantes()
         '***************************************
 
@@ -110,13 +92,10 @@ Module Module1
                     msgDebug += PrintLogCorreo("CrearSeguros", "XML a Enviar es: <br>" & Chr(10) & Chr(13) & strXML)
                     'Aqui se envia a Cargar el XML
                     ''
-                    '
-                    '
-
+                 
                     strXMLResponse = CargaMARSH(strXML)
                     '
-                    '
-                    '
+                   
 
                     msgDebug += PrintLogCorreo("CrearSeguros", "XML a Respuesta es:: <br>" & Chr(10) & Chr(13) & strXMLResponse)
 

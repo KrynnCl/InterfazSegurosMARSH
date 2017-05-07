@@ -6,165 +6,134 @@ InterfazSegurosMARSH
 </name>
 </assembly>
 <members>
-<member name="T:InterfazSegurosMARSH.My.Resources.Resources">
-<summary>
-  Clase de recurso con establecimiento inflexible de tipos, para buscar cadenas traducidas, etc.
-</summary>
-</member>
 <member name="P:InterfazSegurosMARSH.My.Resources.Resources.ResourceManager">
-<summary>
+	<summary>
   Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
 </summary>
-</member>
-<member name="P:InterfazSegurosMARSH.My.Resources.Resources.Culture">
-<summary>
+</member><member name="P:InterfazSegurosMARSH.My.Resources.Resources.Culture">
+	<summary>
   Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
   búsquedas de recursos mediante esta clase de recurso con establecimiento inflexible de tipos.
 </summary>
-</member>
-<member name="T:InterfazSegurosMARSH.SegurosMarsh">
-<summary>
+</member><member name="T:InterfazSegurosMARSH.My.Resources.Resources">
+	<summary>
+  Clase de recurso con establecimiento inflexible de tipos, para buscar cadenas traducidas, etc.
+</summary>
+</member><member name="T:InterfazSegurosMARSH.SegurosMarsh.SegurosMARSH_SeguroDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:InterfazSegurosMARSH.SegurosMarsh.SegurosMARSH_ConfiguracionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:InterfazSegurosMARSH.SegurosMarsh.Ellipse_OCDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:InterfazSegurosMARSH.SegurosMarsh.Ellipse_ContratosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:InterfazSegurosMARSH.SegurosMarsh.SegurosMARSH_Oc_ContratoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:InterfazSegurosMARSH.SegurosMarsh.SegurosMARSH_SeguroRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:InterfazSegurosMARSH.SegurosMarsh.SegurosMARSH_ConfiguracionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:InterfazSegurosMARSH.SegurosMarsh.Ellipse_OCRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:InterfazSegurosMARSH.SegurosMarsh.Ellipse_ContratosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:InterfazSegurosMARSH.SegurosMarsh.SegurosMARSH_Oc_ContratoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:InterfazSegurosMARSH.SegurosMarsh.SegurosMARSH_SeguroRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:InterfazSegurosMARSH.SegurosMarsh.SegurosMARSH_ConfiguracionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:InterfazSegurosMARSH.SegurosMarsh.Ellipse_OCRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:InterfazSegurosMARSH.SegurosMarsh.Ellipse_ContratosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:InterfazSegurosMARSH.SegurosMarsh.SegurosMARSH_Oc_ContratoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:InterfazSegurosMARSH.SegurosMarsh">
+	<summary>
 Represents a strongly typed in-memory cache of data.
 </summary>
-</member>
-<member name="T:InterfazSegurosMARSH.SegurosMarsh.SegurosMARSH_SeguroDataTable">
-<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member>
-<member name="T:InterfazSegurosMARSH.SegurosMarsh.SegurosMARSH_ConfiguracionDataTable">
-<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member>
-<member name="T:InterfazSegurosMARSH.SegurosMarsh.Ellipse_OCDataTable">
-<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member>
-<member name="T:InterfazSegurosMARSH.SegurosMarsh.Ellipse_ContratosDataTable">
-<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member>
-<member name="T:InterfazSegurosMARSH.SegurosMarsh.SegurosMARSH_Oc_ContratoDataTable">
-<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member>
-<member name="T:InterfazSegurosMARSH.SegurosMarsh.SegurosMARSH_SeguroRow">
-<summary>
-Represents strongly named DataRow class.
-</summary>
-</member>
-<member name="T:InterfazSegurosMARSH.SegurosMarsh.SegurosMARSH_ConfiguracionRow">
-<summary>
-Represents strongly named DataRow class.
-</summary>
-</member>
-<member name="T:InterfazSegurosMARSH.SegurosMarsh.Ellipse_OCRow">
-<summary>
-Represents strongly named DataRow class.
-</summary>
-</member>
-<member name="T:InterfazSegurosMARSH.SegurosMarsh.Ellipse_ContratosRow">
-<summary>
-Represents strongly named DataRow class.
-</summary>
-</member>
-<member name="T:InterfazSegurosMARSH.SegurosMarsh.SegurosMARSH_Oc_ContratoRow">
-<summary>
-Represents strongly named DataRow class.
-</summary>
-</member>
-<member name="T:InterfazSegurosMARSH.SegurosMarsh.SegurosMARSH_SeguroRowChangeEvent">
-<summary>
-Row event argument class
-</summary>
-</member>
-<member name="T:InterfazSegurosMARSH.SegurosMarsh.SegurosMARSH_ConfiguracionRowChangeEvent">
-<summary>
-Row event argument class
-</summary>
-</member>
-<member name="T:InterfazSegurosMARSH.SegurosMarsh.Ellipse_OCRowChangeEvent">
-<summary>
-Row event argument class
-</summary>
-</member>
-<member name="T:InterfazSegurosMARSH.SegurosMarsh.Ellipse_ContratosRowChangeEvent">
-<summary>
-Row event argument class
-</summary>
-</member>
-<member name="T:InterfazSegurosMARSH.SegurosMarsh.SegurosMARSH_Oc_ContratoRowChangeEvent">
-<summary>
-Row event argument class
-</summary>
-</member>
-<member name="T:InterfazSegurosMARSH.SegurosMarshTableAdapters.SegurosMARSH_SeguroTableAdapter">
-<summary>
+</member><member name="T:InterfazSegurosMARSH.SegurosMarshTableAdapters.SegurosMARSH_SeguroTableAdapter">
+	<summary>
 Represents the connection and commands used to retrieve and save data.
 </summary>
-</member>
-<member name="T:InterfazSegurosMARSH.SegurosMarshTableAdapters.SegurosMARSH_ConfiguracionTableAdapter">
-<summary>
+</member><member name="T:InterfazSegurosMARSH.SegurosMarshTableAdapters.SegurosMARSH_ConfiguracionTableAdapter">
+	<summary>
 Represents the connection and commands used to retrieve and save data.
 </summary>
-</member>
-<member name="T:InterfazSegurosMARSH.SegurosMarshTableAdapters.Ellipse_OCTableAdapter">
-<summary>
+</member><member name="T:InterfazSegurosMARSH.SegurosMarshTableAdapters.Ellipse_OCTableAdapter">
+	<summary>
 Represents the connection and commands used to retrieve and save data.
 </summary>
-</member>
-<member name="T:InterfazSegurosMARSH.SegurosMarshTableAdapters.Ellipse_ContratosTableAdapter">
-<summary>
+</member><member name="T:InterfazSegurosMARSH.SegurosMarshTableAdapters.Ellipse_ContratosTableAdapter">
+	<summary>
 Represents the connection and commands used to retrieve and save data.
 </summary>
-</member>
-<member name="T:InterfazSegurosMARSH.SegurosMarshTableAdapters.SegurosMARSH_Oc_ContratoTableAdapter">
-<summary>
+</member><member name="T:InterfazSegurosMARSH.SegurosMarshTableAdapters.SegurosMARSH_Oc_ContratoTableAdapter">
+	<summary>
 Represents the connection and commands used to retrieve and save data.
 </summary>
-</member>
-<member name="T:InterfazSegurosMARSH.SegurosMarshTableAdapters.TableAdapterManager">
-<summary>
-TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
-</summary>
-</member>
-<member name="M:InterfazSegurosMARSH.SegurosMarshTableAdapters.TableAdapterManager.UpdateUpdatedRows(InterfazSegurosMARSH.SegurosMarsh,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
-<summary>
+</member><member name="M:InterfazSegurosMARSH.SegurosMarshTableAdapters.TableAdapterManager.UpdateUpdatedRows(InterfazSegurosMARSH.SegurosMarsh,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
 Update rows in top-down order.
 </summary>
-</member>
-<member name="M:InterfazSegurosMARSH.SegurosMarshTableAdapters.TableAdapterManager.UpdateInsertedRows(InterfazSegurosMARSH.SegurosMarsh,System.Collections.Generic.List{System.Data.DataRow})">
-<summary>
+</member><member name="M:InterfazSegurosMARSH.SegurosMarshTableAdapters.TableAdapterManager.UpdateInsertedRows(InterfazSegurosMARSH.SegurosMarsh,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
 Insert rows in top-down order.
 </summary>
-</member>
-<member name="M:InterfazSegurosMARSH.SegurosMarshTableAdapters.TableAdapterManager.UpdateDeletedRows(InterfazSegurosMARSH.SegurosMarsh,System.Collections.Generic.List{System.Data.DataRow})">
-<summary>
+</member><member name="M:InterfazSegurosMARSH.SegurosMarshTableAdapters.TableAdapterManager.UpdateDeletedRows(InterfazSegurosMARSH.SegurosMarsh,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
 Delete rows in bottom-up order.
 </summary>
-</member>
-<member name="M:InterfazSegurosMARSH.SegurosMarshTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
-<summary>
+</member><member name="M:InterfazSegurosMARSH.SegurosMarshTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
 Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
 </summary>
-</member>
-<member name="M:InterfazSegurosMARSH.SegurosMarshTableAdapters.TableAdapterManager.UpdateAll(InterfazSegurosMARSH.SegurosMarsh)">
-<summary>
+</member><member name="M:InterfazSegurosMARSH.SegurosMarshTableAdapters.TableAdapterManager.UpdateAll(InterfazSegurosMARSH.SegurosMarsh)">
+	<summary>
 Update all changes to the dataset.
 </summary>
-</member>
-<member name="T:InterfazSegurosMARSH.SegurosMarshTableAdapters.TableAdapterManager.UpdateOrderOption">
-<summary>
+</member><member name="T:InterfazSegurosMARSH.SegurosMarshTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
 Update Order Option
 </summary>
-</member>
-<member name="T:InterfazSegurosMARSH.SegurosMarshTableAdapters.TableAdapterManager.SelfReferenceComparer">
-<summary>
+</member><member name="T:InterfazSegurosMARSH.SegurosMarshTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
 Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:InterfazSegurosMARSH.SegurosMarshTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
 </summary>
 </member>
 </members>
